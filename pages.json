@@ -1,0 +1,107 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "何故AI学习",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/grid-tool/grid-tool",
+      "style": {
+        "navigationBarTitleText": "图片打格"
+      }
+    },
+    {
+      "path": "pages/compare/compare",
+      "style": {
+        "navigationBarTitleText": "临摹对比"
+      }
+    },
+    {
+      "path": "pages/practice/practice",
+      "style": {
+        "navigationBarTitleText": "背临强化"
+      }
+    },
+    {
+      "path": "pages/user/register",
+      "style": {
+        "navigationBarTitleText": "用户注册"
+      }
+    },
+    {
+      "path": "pages/role-play/role-play",
+      "style": {
+        "navigationBarTitleText": "角色扮演"
+      }
+    },
+    {
+      "path": "pages/oral-practice/oral-practice",
+      "style": {
+        "navigationBarTitleText": "口语练习"
+      }
+    },
+    {
+      "path": "pages/vocabulary/vocabulary",
+      "style": {
+        "navigationBarTitleText": "词汇记忆"
+      }
+    },
+    {
+      "path": "pages/vocabulary/vocab-detail",
+      "style": {
+        "navigationBarTitleText": "单词学习"
+      }
+    },
+    {
+      "path": "pages/vocabulary/vocab-manager",
+      "style": {
+        "navigationBarTitleText": "生词本"
+      }
+    },
+    {
+      "path": "pages/vocabulary/vocab-stats",
+      "style": {
+        "navigationBarTitleText": "学习统计"
+      }
+    },
+    {
+      "path": "pages/grammar/grammar",
+      "style": {
+        "navigationBarTitleText": "语法分析"
+      }
+    },
+    {
+      "path": "pages/seal/seal",
+      "style": {
+        "navigationBarTitleText": "篆刻设计"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "何故AI学习",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/user/register",
+        "text": "注册"
+      }
+    ]
+  }
+}

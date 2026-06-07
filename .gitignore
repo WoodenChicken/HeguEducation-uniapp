@@ -1,3 +1,27 @@
+# 忽略依赖包（体积大，可从 package.json 恢复）
+node_modules/
+
+# 忽略开发文档、数据文件等
+docs/
+data/
+
+# 忽略 uni-app 的构建输出（每次构建都会变化）
+unpackage/
+dist/
+.hbuilderx/
+
+# 忽略本地环境配置文件
+.env.local
+.env.*.local
+
+# 忽略 IDE 和系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
 # Compiled class file
 *.class
 
